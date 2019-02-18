@@ -29,6 +29,7 @@ end
 
 def find_the_cheese(food)# code an argument here
   # the array below is here to help
+  # check if elements in food are included in cheese_types
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.find do |i|
     if !cheese_types.include?(i)
